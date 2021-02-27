@@ -6,12 +6,10 @@ This code can be used to identidy unautonomous systems directly from data. The p
 
 Below are the names and descriptions of some of the included contents:
 
-Folders:
-
--models        		- Contains five adaptive data-driven system identification models.
-	-Koopman.py		- Builds an adaptive Koopman model from data.
+- models        			- Contains five adaptive data-driven system identification models.
+	-- Koopman.py		- Builds an adaptive Koopman model from data.
 	-Koopman_liftCtrl.py	- Builds an adaptive Koopman model with imputs lifted from data.
-	-DMD.py		- Builds an adaptive DMD model from data.
+	-DMD.py			- Builds an adaptive DMD model from data.
 	-NARX.py 		- Builds an adaptive NARX model from data.
 	-MovingAnchor.py	- Builds an adaptive Moving Anchoring model from data.
 	
