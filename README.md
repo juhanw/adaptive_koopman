@@ -2,7 +2,8 @@
 
 ## Overview of Project 
 
-This code can be used to identidy unautonomous systems directly from data. The provided examples use a water network simulator "pystorm".
+This code can be used to identidy unautonomous systems directly from data. 
+The provided examples use a water network simulator pystorm (https://github.com/kLabUM/pystorms.git).
 
 Below are the names and descriptions of some of the included contents:
 
@@ -28,7 +29,7 @@ Below are the names and descriptions of some of the included contents:
 ## How to construct an adaptive Koopman model from data
 
 ### Step 1. Provide unautonomous systems
-	Before customizing your own testing systems, you need to define model parameters by changing the Name-Value pair input arguments in tests/systems.py file:
+	You need to customize you own models by changing parameters in `tests/systems.py` file:
 	Name:                       Semantics:
 	'statesUpper'               States upper bounds
 	'statesLower'               States lower bounds
@@ -40,7 +41,8 @@ Below are the names and descriptions of some of the included contents:
 	Each identification needs to go through model initialization and model updates. 
 
 ### Step 3. Visualize results
-	Comparison plots between different adaptive methods will be generated in the end of test. Template code file is provided in the tests/ folder.
+	Comparison plots between different adaptive methods will be generated in the end of test.
+	Template code file is provided in the `tests/` folder.
 
 
 ## Running Examples
