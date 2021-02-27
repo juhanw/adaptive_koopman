@@ -38,11 +38,11 @@ Below are the names and descriptions of some of the included contents:
 	'simulator'                 Simulation with control inputs and state outputs 
 
 ### Step 2. Run adaptive identification 
-	Each identification needs to go through model initialization and model updates. 
+Each identification needs to go through model initialization and model updates. 
 
 ### Step 3. Visualize results
-	Comparison plots between different adaptive methods will be generated in the end of test.
-	Template code file is provided in the `tests/` folder.
+Comparison plots between different adaptive methods will be generated in the end of test.
+Template code file is provided in the `tests/` folder.
 
 
 ## Running Examples
