@@ -30,7 +30,7 @@ Below are the names and descriptions of some of the included contents:
 
 ## How to construct an adaptive Koopman model from data
 
-### Step 1. Provide unautonomous systems
+### Step 1. Provide nonautonomous systems
 	You need to customize you own models by changing parameters in `tests/systems.py` file:
 	Name:                       Semantics:
 	'statesUpper'               States upper bounds
